@@ -21,6 +21,7 @@ nav ul{
     align-items: center;
     padding: 5% 10%;
     display: none;
+    position: absolute;
 }
 nav ul li {
     padding: 3% 0;
@@ -35,7 +36,8 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 #checkbox:checked ~ ul {
-    display:flex;     
+    display:flex;  
+    position: relative;   
 }
 @media screen and (min-width: 1024px){
 #icon{
