@@ -1,0 +1,139 @@
+{
+ border:0
+margin:0
+padding:0
+}
+/*Navigation*/
+header{
+    background-color: #F2C6C2;
+    height: 75px
+}
+#checkbox{
+    display: none
+}
+#icon {
+    font-size: 2rem;
+}
+nav ul{
+    background-color: #F2C6C2;
+    display:flex;
+    flex-direction: column;   
+    align-items: center;
+    padding: 5% 0;
+    display: none;
+}
+nav ul li {
+    padding: 3% 0;
+    list-style-type: none;
+}
+nav ul li a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+#checkbox:checked ~ ul {
+    display:flex;     
+}
+@media screen and (min-width: 1024px){
+#icon{
+    display: none;}
+nav {height: 100px ;}
+nav ul {
+    background-color: #F2C6C2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+}
+    
+/*Fonts*/
+.calistoga-regular {
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ .karma-medium {
+  font-family: "Karma", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.instrument-sans- <uniquifier> {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing:auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"width" 100;
+}
+/*Colors*/
+:root {
+    --color-light: #ffffff;
+    --color-light-shade: #fafffd;
+    --color-dark: #171640;
+    --color-primary: #F2C6C2;
+    --color-primary-shade:#9FBFB0;
+  }
+  
+  body {
+    background: var(--color-light-shade);
+    color: var(--color-light);
+    line-height: 1.5;
+    font-family: 'Calistoga', 'Karma', 'Instrument Sans';
+    font-weight: 400;
+  }
+  h1 {
+	color: #F27781;
+	font-size: 10vw;
+	font-family: "Calistoga", serif;
+  }
+  
+h2 {
+	color:#F27781;
+	font-family: "Karma", serif;
+	font-size: 10vw;
+	font-style: normal;
+    text-align: center;
+  }
+  #logo{
+    padding-top: 5%;
+  }
+  p {
+    color:#171640;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 5vw;
+    font-style: normal;
+    text-align: center;
+  }
+  #three {
+    color:#171640;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 5vw;
+    font-style: normal;
+    text-align: center;
+    flex-direction: column; 
+}
+  footer{
+        background-color: #F2C6C2;
+        height: 75px;
+        display: flex;  
+    align-items: center;
+    padding: 5% 0;
+    }
+    #links1 {
+        flex-direction: row;
+        align-items: center;
+        height: 25px;
+    }
+    #links2 {
+        flex-direction: row;
+        align-items: center;
+        height: 25px;
+    }
+    #links3 {
+        flex-direction: row;
+        align-items: ;
+        height: 25px;
+    }
