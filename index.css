@@ -1,3 +1,4 @@
+
 /* header */
 .header {
   background-color:#F2C6C2;
@@ -141,13 +142,13 @@
   font-style: normal;
 }
 
-.instrument-sans- <paragraph> {
+.instrument-sans-<paragraph> {
   font-family: "Instrument Sans", sans-serif;
   font-optical-sizing:auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings:"width" 100;
-}
+} 
 /*Colors*/
 :root {
     --color-light: #ffffff;
@@ -167,6 +168,7 @@
   h1 {
 	color: #F27781;
 	font-family: "Calistoga", serif;
+  text-align: center;
   }
   
 h2 {
